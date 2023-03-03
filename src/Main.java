@@ -5,6 +5,6 @@ public class Main {
        int price = 500;
         int miles = service.calculate(price); // должно получиться 500
         System.out.println(miles);
-       // System.out.println(service.calculate(1_000_000));
+       // System.out.println(service.calculate(1_000));
     }
 }
